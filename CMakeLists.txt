@@ -8,8 +8,7 @@ include_directories(../sfml/include)
 link_directories(../sfml/lib)
 
 if(MSVC)
-    # set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /NODEFAULTLIB")
-    # set(CMAKE_CXX_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /MD")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /NODEFAULTLIB:msvcrt")
 endif()
 
 add_subdirectory(src)
