@@ -1,5 +1,5 @@
-#include <iostream>
+#include "more.h"
 
 int main() {
-  std::cout << "Hello, world!" << std::endl;
+  greek();
 }
