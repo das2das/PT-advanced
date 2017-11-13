@@ -5,8 +5,8 @@ add_executable(
 )
 target_link_libraries(
     pt
-    sfml-graphics
-    sfml-main
-    sfml-system
-    sfml-window
+    sfml-graphics-d
+    sfml-main-d
+    sfml-system-d
+    sfml-window-d
 )
