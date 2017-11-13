@@ -1,1 +1,12 @@
-add_executable(pt main.cpp)
+add_executable(
+    pt
+    WIN32
+    main.cpp
+)
+target_link_libraries(
+    pt
+    sfml-graphics
+    sfml-main
+    sfml-system
+    sfml-window
+)
